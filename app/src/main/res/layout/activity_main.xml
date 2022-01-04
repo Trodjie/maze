@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_contentDescription"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimension_logo"
+        android:contentDescription="@string/logo_contentDescription"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/button_padding_50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="@dimen/button_width_250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin_10dp"
+            android:background="@drawable/button_press_unpress"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/buttonAchievements"
+            android:layout_width="@dimen/button_width_250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin_10dp"
+            android:background="@drawable/button_press_unpress"
+            android:text="@string/achievements" />
+
+        <Button
+            android:id="@+id/buttonRules"
+            android:layout_width="@dimen/button_width_250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin_10dp"
+            android:background="@drawable/button_press_unpress"
+            android:text="@string/rules" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundRules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_contentDescription"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimension_logo_rules"
+        android:contentDescription="@string/logo_contentDescription"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/containerRules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_padding_50dp"
+        android:paddingRight="@dimen/padding_left_right_30dp"
+        android:paddingLeft="@dimen/padding_left_right_30dp">
+
+        <TextView
+            android:id="@+id/textViewRulesRule1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_inner"
+            android:text="@string/rules_list_rule_1"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_rules"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRulesRule2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_inner"
+            android:text="@string/rules_list_rule_2"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_rules"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRulesRule3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_inner"
+            android:text="@string/rules_list_rule_3"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_rules"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRulesRule4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/rules_list_rule_4"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_rules"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

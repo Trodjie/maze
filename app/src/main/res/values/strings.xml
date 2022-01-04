@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Maze</string>
+    <string name="play">Play</string>
+    <string name="saveAndPlay">Save and play</string>
+    <string name="achievements">Achievements</string>
+    <string name="rules">Rules</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_very_hard">Very hard</string>
+
+    <string name="rules_list_rule_1">The game «Maze» is a classic maze game in which the player must find a way out and pass the maze.</string>
+    <string name="rules_list_rule_2">To pass the labyrinth, the player must lead the red square to the exit, which is marked by a green square.</string>
+    <string name="rules_list_rule_3">The game has four levels of difficulty, the difficulty depends on the size of the maze. To fully pass the selected difficulty, the player must pass three mazes in a row. After passing the selected difficulty, the player can save his result.</string>
+    <string name="rules_list_rule_4">To view achievements, click the «Achievements» button on the main menu.</string>
+    <string name="success">Level successfully completed!</string>
+    <string name="label_passing_time">Passing time, sec.</string>
+    <string name="background_contentDescription" translatable="false">Background</string>
+    <string name="logo_contentDescription" translatable="false">Logo</string>
+
+    <string name="choose_level">Choose a difficulty of the level</string>
+    <string name="seconds"> sec. </string>
+
+    <string name="label_passing_date">Passing date</string>
+    <string name="label_level">Difficulty of the level</string>
+
+    <string name="invalid_query_uri">Incorrect request</string>
+    <string name="insert_failed">Insertion error</string>
+
+</resources>

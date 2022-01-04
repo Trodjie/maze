@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundRules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_contentDescription"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:id="@+id/containerRules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewChooseLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_size_messages"
+            android:text="@string/choose_level"
+            android:textAlignment="center"
+            android:textColor="@color/dark_brown"
+            android:textSize="@dimen/text_size_messages"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/buttonLevelsContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/lineFirst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEasy"
+                    android:layout_width="@dimen/button_width_height_150dp"
+                    android:layout_height="@dimen/button_width_height_150dp"
+                    android:layout_margin="@dimen/button_margin_10dp"
+                    android:layout_weight="1"
+                    android:text="@string/difficulty_easy" />
+
+                <Button
+                    android:id="@+id/buttonNormal"
+                    android:layout_width="@dimen/button_width_height_150dp"
+                    android:layout_height="@dimen/button_width_height_150dp"
+                    android:layout_margin="@dimen/button_margin_10dp"
+                    android:layout_weight="1"
+                    android:text="@string/difficulty_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lineSecond"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonHard"
+                    android:layout_width="@dimen/button_width_height_150dp"
+                    android:layout_height="@dimen/button_width_height_150dp"
+                    android:layout_weight="1"
+                    android:text="@string/difficulty_hard"
+                    android:layout_margin="@dimen/button_margin_10dp" />
+
+                <Button
+                    android:id="@+id/buttonVeryHard"
+                    android:layout_width="@dimen/button_width_height_150dp"
+                    android:layout_height="@dimen/button_width_height_150dp"
+                    android:layout_weight="1"
+                    android:text="@string/difficulty_very_hard"
+                    android:layout_margin="@dimen/button_margin_10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

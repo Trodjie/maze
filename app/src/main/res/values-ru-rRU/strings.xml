@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лабиринты</string>
+    <string name="play">Играть</string>
+    <string name="saveAndPlay">Сохранить и играть</string>
+    <string name="achievements">Достижения</string>
+    <string name="rules">Правила иры</string>
+    <string name="difficulty_easy">Лёгкая</string>
+    <string name="difficulty_normal">Средняя</string>
+    <string name="difficulty_hard">Сложная</string>
+    <string name="difficulty_very_hard">Трудная</string>
+    <string name="success">Уровень успешно пройден!</string>
+    <string name="label_passing_time">Время прохождения, сек.</string>
+    <string name="choose_level">Выберите сложность лабиринта</string>
+    <string name="seconds">сек.</string>
+    <string name="label_passing_date">Дата прохождения</string>
+    <string name="label_level">Сложность лабиринта</string>
+    <string name="invalid_query_uri">Неверный запрос</string>
+    <string name="insert_failed">Ошибка вставки</string>
+    <string name="rules_list_rule_1">Игра «Лабиринты» - это классический лабиринт, в котором игроку необходимо найти выход и пройти лабиринт.</string>
+    <string name="rules_list_rule_2">Для прохождения лабиринта игроку необходимо провести красный квадрат к выходу, который отмечен зелёным квадратом.</string>
+    <string name="rules_list_rule_3">В игре есть четыре уровня сложности, от сложности зависит размер лабиринта. Для полного прохождения выбранной сложности игроку необходимо пройти подряд три лабиринта. После прохождения выбранной сложности игрок может сохранить свой результат.</string>
+    <string name="rules_list_rule_4">Посмотреть свои достижения можно нажав на кнопку «Достижения» в главном меню.</string>
+</resources>

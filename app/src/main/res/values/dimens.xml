@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimension_logo">150dp</dimen>
+    <dimen name="dimension_logo_rules">50dp</dimen>
+    <dimen name="button_radius_10dp">10dp</dimen>
+    <dimen name="button_width_2dp">2dp</dimen>
+    <dimen name="button_padding_50dp">50dp</dimen>
+    <dimen name="padding_left_right_30dp">30dp</dimen>
+    <dimen name="padding_inner">20dp</dimen>
+    <dimen name="button_margin_10dp">10dp</dimen>
+    <dimen name="button_width_250dp">250dp</dimen>
+    <dimen name="button_width_height_150dp">150dp</dimen>
+    <dimen name="text_size_messages">30sp</dimen>
+    <dimen name="text_size_rules">16sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="divider_margin">16dp</dimen>
+</resources>
